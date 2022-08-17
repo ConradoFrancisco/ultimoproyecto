@@ -1,0 +1,11 @@
+create database usuariosEmpleadosSucursales;
+use usuariosEmpleadosSucursales;
+create table usuarios(
+	id int unsigned key auto_increment ,
+	username VARCHAR(20),
+    password VARCHAR(30),
+    Nombre VARCHAR(30),
+    Apellido VARCHAR(40)
+);
+
+select * from usuarios
